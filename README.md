@@ -34,8 +34,75 @@ git remote -v
 
 You should get an output similar to 
 ```sh
-origin  https://github.com/happycoder0011/CIPHER_DIARIES.git (fetch)
-origin  https://github.com/happycoder0011/CIPHER_DIARIES.git (push)
+origin  https://github.com/Your_user_name/CIPHER_DIARIES.git (fetch)
+origin  https://github.com/Your_user_name/CIPHER_DIARIES.git (push)
 ```
 
-If not!! fork again and reiterate the steps.
+If not!! Check tat you are in the right folder of the project. Otherwise fork again and reiterate the steps.
+
+Add a reference to the original CIPHER_DIARIES repo:
+```sh
+git remote add https://github.com/happycoder0011/CIPHER_DIARIES.git
+```
+
+Check if it's added 
+```sh
+git remote -v
+```
+
+You should get output as
+```sh
+origin  https://github.com/Your_user_name/CIPHER_DIARIES.git (fetch)
+origin  https://github.com/Your_user_name/CIPHER_DIARIES.git (push)
+upstream   https://github.com/happycoder0011/CIPHER_DIARIES.git (fetch)
+upstream   https://github.com/happycoder0011/CIPHER_DIARIES.git (fetch)
+```
+
+# Voila!!! Set up done.
+
+Start by adding your files, codes and commit to your copy of the project.
+
+Command to commit
+```sh
+git add .
+git commit -m "commit message"
+git push origin master
+```
+
+**Note:** You would be working on your local project. Always make sure to pull the repobefore pushing your code to see the changes made by other contributors.
+```sh
+git pull
+```
+
+After you have successfully pushed your code on your remote copy(github) of the project. You can compare the branch with the original repo on github and make a pull request!
+
+
+# Contribution
+
+## Issues
+- You can craete new issues and claim them to make a pull request.
+- You can also see for an already created issue.
+
+## - Languages
+     - C
+     - C++
+     - Python
+     - Javascript
+
+
+- ## Websites For Reference :computer:
+    - [GeeksforGeeks](http://www.geeksforgeeks.org) 
+    - [tutorialspoint](http://www.tutorialspoint.com)
+    - [Wikipedia](https://en.wikipedia.org)
+
+
+
+
+
+
+
+
+
+
+
+
