@@ -1,6 +1,6 @@
 # Welcome to  CIPHER DAIRIES :books:
 ***
-A collection of Cipher implementations in different langauges.
+A collection of cipher implementations in different langauges.
 
 ## What is a cipher?
 **In cryptography, a cipher (or cypher) is an algorithm for performing encryption or decryption—a series of well-defined steps that can be followed as a procedure.**
