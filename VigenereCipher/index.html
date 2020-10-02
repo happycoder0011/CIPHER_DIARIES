@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vigenere Cipher</title>
+  <style>
+    .inputText {
+      width: 100%;
+      height: 200px;
+    }
+    .elementBlock{
+      width:90%; 
+      margin: auto
+    }
+    .label{
+      font-size: 18px;
+    }
+    button{
+      width:15%;
+      margin-left:15px;
+    }
+  </style>
+</head>
+
+<h1 style="text-align: center;">Vigenere Cipher</h1>
+<body style="background-color:powderblue;">
+  <div class="elementBlock">
+    <label for="inputText" class="label">Insert Plain Text</label>
+    <textarea id="inputText" class="inputText"></textarea>
+  </div>
+
+  <div class="elementBlock" style="margin-top: 20px">
+    <label for="cipherKey" class="label">Insert Key to Cipher</label>
+    <input id="cipherKey" class="cipherKey"></textarea>
+    <button onclick="changeCipherMode('Encrypt Mode')"> Encrypt mode</button>
+    <button onclick="changeCipherMode('Decrypt Mode')"> Decrypt mode</button>
+  </div>
+
+  <h2 style="text-align: center" id="cipherMode"> Encrypt Mode</h2>
+  <div class="elementBlock">
+    <textarea id="result" readonly class="inputText"></textarea>
+  </div>
+</body>
+
+<script src="vigenereCipher.js">
+</script>
+
+</html>
