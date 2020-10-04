@@ -80,7 +80,7 @@ After you have successfully pushed your code on your remote copy(github) of the 
 # Contribution
 
 ## Issues
-- You can craete new issues and claim them to make a pull request.
+- You can create new issues and claim them to make a pull request.
 - You can also see for an already created issue.
 
 ## - Languages
