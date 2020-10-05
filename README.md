@@ -38,7 +38,7 @@ origin  https://github.com/Your_user_name/CIPHER_DIARIES.git (fetch)
 origin  https://github.com/Your_user_name/CIPHER_DIARIES.git (push)
 ```
 
-If not!! Check tat you are in the right folder of the project. Otherwise fork again and reiterate the steps.
+If not!! Check that you are in the right folder of the project. Otherwise fork again and reiterate the steps.
 
 Add a reference to the original CIPHER_DIARIES repo:
 ```sh
@@ -80,7 +80,7 @@ After you have successfully pushed your code on your remote copy(github) of the 
 # Contribution
 
 ## Issues
-- You can craete new issues and claim them to make a pull request.
+- You can create new issues and claim them to make a pull request.
 - You can also see for an already created issue.
 
 ## - Languages
