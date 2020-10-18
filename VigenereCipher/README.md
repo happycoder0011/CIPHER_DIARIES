@@ -2,7 +2,7 @@
 
 Vigenere Cipher is kind of polyalphabetic substitution method. It is used for encryption of alphabetic text. For encryption and decryption Vigenere Cipher Table is used in which alphabets from A to Z are written in 26 rows.The encryption of the original text is done using the **Vigenère square** or **Vigenere table.**
 
-                                                       **Table to encrypt**
+                                                        **Table to encrypt**
 
                 | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z |
                 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
