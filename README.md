@@ -98,11 +98,13 @@ After you have successfully pushed your code on your remote copy(github) of the 
 | Autokey Cipher | &nbsp;  |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark: |
 | Hill Cipher | &nbsp;  | &nbsp; | &nbsp; |  &nbsp;| :heavy_check_mark:|
 | Playfair Cipher | &nbsp;   | &nbsp; | &nbsp; | :heavy_check_mark:  |&nbsp; |
-| ROT13 Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; | &nbsp; |:heavy_check_mark:  |
+| ROT13 Cipher |  :heavy_check_mark:   | &nbsp; | :heavy_check_mark: | &nbsp; |:heavy_check_mark:  |
 | Railfence Cipher |&nbsp; | &nbsp; |  :heavy_check_mark:     |   :heavy_check_mark:    |  :heavy_check_mark:    |
 | Substitution Cipher | &nbsp;   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
 | Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
 | RSA Cipher | &nbsp;  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | &nbsp;|
+| XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  &nbsp;  | :heavy_check_mark: |
+
 
 
 
