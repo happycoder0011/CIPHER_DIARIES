@@ -18,8 +18,8 @@ To crack a simple tranposition cipher, you must first count the number of letter
 ## Column-scrambled Transposition Ciphers
 There is a variant of the simple transposition cipher called the column-scrambled transposition cipher. In this cipher, you find a matrix that fits all the letters of your message and fill them in row-by-row while filling in any extra spaces with dummy characters (such as X). However, before the message is translated back by reading it down from each column, the columns are scrambled. This generates a new matrix of the same size. The message is then read down from the column, encrypting the message. This makes decrypting the message much harder because you have to account for countless more combinations. An example of the column scrambled transposition cipher is shown below, with the example in the previous section above being used for easy reference:
 
-| | | | | | | | | | | 
-|10|3|2|9|5|6|7|8|4|1|
+|10|3|2|9|5|6|7|8|4|1| 
+|-|-|-|-|-|-|-|-|-|-|
 R | e | h | b | i | t | h | u | G | T |
 h | o | p | y | i | t | o | r | s | e | 
 w | s | s | d | o | p | p | e | t | a |
