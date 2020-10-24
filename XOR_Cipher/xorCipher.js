@@ -1,12 +1,13 @@
 function crypt(input, key) {
   let result = '';
-  for (const item of input) {
-    result += String.fromCharCode(item.charCodeAt(0) ^ key);
+  for (let i=0;i<input.length;i++) {
+    result += String.fromCharCode(input.charCodeAt(i) ^ key.charCodeAt(i%key.length));
   }
   return result;
 }
 
-const encryptedString = crypt('test string', 128);
+const key = 'RandomString'
+const encryptedString = crypt('this is a test string 123456', key);
 console.log('Encrypted: ', encryptedString);
-const decryptedString = crypt(encryptedString, 128);
+const decryptedString = crypt(encryptedString, key);
 console.log('Decrypted: ', decryptedString);
