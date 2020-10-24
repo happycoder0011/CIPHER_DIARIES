@@ -5,9 +5,6 @@ The Transposition Cipher encrypts by rearranging the order of the letters in the
 
 | | | | | | | | | | 
 |-|-|-|-|-|-|-|-|-|
-
-
-T | h | e | G | i | t | h | u | b |
---|---|---|---|---|---|---|---|----
+T| h| e | G | i | t | h | u | b |
 I | A | A | A | A | A | A | A | A | 
  
