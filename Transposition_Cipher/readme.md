@@ -10,4 +10,9 @@ e | p | o | s | i | t | o | r | y | h |
 a | s | s | t | o | p | p | e | d | w |
 o | r | k | i | n | g | x | x | x | x |
 
+When we read this out by column rather than row, we receive our encrypted message: TEAO HPSR EOSK GSTI IION TTPG HOPX UREX BYDX RHWX.
+
+## Decryption
+To crack a simple tranposition cipher, you must first count the number of letters in the ciphertext. Then you must determine all the possible matrices that would fit the number of characters, keeping in mind that the area of the matrix can be greater than the number of letters in the ciphertext if accounting for possible dummy letters. Use two of each size in the list of all possible matrices, and write out the ciphertext across by row on one copy while writing it down by column on the other. Repeat this for every single possible matrix until you find anything legible, in which case you most likely cracked the cipher. 
+
 
