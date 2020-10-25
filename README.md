@@ -102,7 +102,7 @@ After you have successfully pushed your code on your remote copy(github) of the 
 | Railfence Cipher |&nbsp; | &nbsp; |  :heavy_check_mark:     |   :heavy_check_mark:    |  :heavy_check_mark:    |
 | Substitution Cipher | &nbsp;   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
 | Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
-| RSA Cipher | &nbsp;  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | &nbsp;|
+| RSA Cipher | &nbsp;  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | &nbsp;|
 | XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  &nbsp;  | :heavy_check_mark: |
 
 
