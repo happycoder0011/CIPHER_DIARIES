@@ -42,7 +42,7 @@ If not!! Check that you are in the right folder of the project. Otherwise fork a
 
 Add a reference to the original CIPHER_DIARIES repo:
 ```sh
-git remote add https://github.com/happycoder0011/CIPHER_DIARIES.git
+git remote add <name>  https://github.com/happycoder0011/CIPHER_DIARIES.git
 ```
 
 Check if it's added 
@@ -102,8 +102,8 @@ After you have successfully pushed your code on your remote copy(github) of the 
 | Railfence Cipher |&nbsp; | &nbsp; |  :heavy_check_mark:     |   :heavy_check_mark:    |  :heavy_check_mark:    |
 | Substitution Cipher | &nbsp;   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
 | Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
-| RSA Cipher | &nbsp;  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | &nbsp;|
-| XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  &nbsp;  | :heavy_check_mark: |
+| RSA Cipher | &nbsp;  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | &nbsp;|
+| XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
 
 
 
