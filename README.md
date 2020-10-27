@@ -104,6 +104,7 @@ After you have successfully pushed your code on your remote copy(github) of the 
 | Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
 | RSA Cipher | &nbsp;  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | &nbsp;|
 | XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
+| Affine Cipher |  &nbsp;   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
 
 
 
