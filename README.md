@@ -42,7 +42,7 @@ If not!! Check that you are in the right folder of the project. Otherwise fork a
 
 Add a reference to the original CIPHER_DIARIES repo:
 ```sh
-git remote add <name>  https://github.com/happycoder0011/CIPHER_DIARIES.git
+git remote add upstream  https://github.com/happycoder0011/CIPHER_DIARIES.git
 ```
 
 Check if it's added 
