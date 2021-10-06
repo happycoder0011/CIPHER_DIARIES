@@ -11,8 +11,20 @@ character. The process needs to be reversed for decryption.
 Encryption of a letter x of the English alphabet
 consisting of 26 characters can be described as, *E<sub>n</sub>(x) = (x + n)%26*. 
 
+<p >
+
+  <img src="https://higherlogicdownload.s3.amazonaws.com/IMWUC/UploadedImages/92757287-d116-4157-b004-c2a0aba1b048/Caesar_cipher_Encryption_Algorithm.png">
+
+  *Caeser Encryption*
+
+</p>
 Similarly, decryption can be described as,
 *D<sub>n</sub>(x) = (x − n)%26*.
+<p >
+<img src="https://higherlogicdownload.s3.amazonaws.com/IMWUC/UploadedImages/92757287-d116-4157-b004-c2a0aba1b048/Caesar_cipher_Decryption_Algorithm.png">
+
+*Ceaser Decryption*
+</p>
 <!-- The number or level of shifts are fixed for all characters throughout the plain text which can be specified as per the requirement. The code above is dedicated towards the shift of 4 characters. -->
 
 In our code, we demonstrate two methods of breaking this cipher −
