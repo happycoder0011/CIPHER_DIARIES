@@ -5,6 +5,37 @@ A collection of Cipher implementations in different langauges.
 ## What is a cipher?
 **In cryptography, a cipher (or cypher) is an algorithm for performing encryption or decryption—a series of well-defined steps that can be followed as a procedure.**
 
+
+# Contribution
+
+## Issues
+- You can create new issues and claim them to make a pull request.
+- You can also see for an already created issue.
+
+## - Languages
+     - C
+     - C++
+     - Python
+     - Javascript
+     
+## Current Status
+
+| CIPHER | JAVASCRIPT | C | C++ | PYTHON |  Readme.md |
+| --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
+| Caesar Cipher |  :heavy_check_mark:   |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: |
+| Transposition Cipher |  &nbsp;  | &nbsp; | &nbsp; | :heavy_check_mark:  | :heavy_check_mark: |
+| Autokey Cipher | &nbsp;  |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark: |
+| Hill Cipher | &nbsp;  | &nbsp; | &nbsp; |  &nbsp;| :heavy_check_mark:|
+| Playfair Cipher | &nbsp;   | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  |&nbsp; |
+| ROT13 Cipher |  :heavy_check_mark:   | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:  |
+| Railfence Cipher |&nbsp; | &nbsp; |  :heavy_check_mark:     |   :heavy_check_mark:    |  :heavy_check_mark:    |
+| Substitution Cipher | &nbsp;   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
+| Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
+| RSA Cipher | &nbsp;  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | &nbsp;|
+| XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
+| Affine Cipher |  &nbsp;   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  &nbsp; |
+
+
 ## Why this repository?
 Learning cipher algorithms and getting started with open source contribution are the two main ojectives of this repository.
 
@@ -75,39 +106,6 @@ git pull
 ```
 
 After you have successfully pushed your code on your remote copy(github) of the project. You can compare the branch with the original repo on github and make a pull request!
-
-
-# Contribution
-
-## Issues
-- You can create new issues and claim them to make a pull request.
-- You can also see for an already created issue.
-
-## - Languages
-     - C
-     - C++
-     - Python
-     - Javascript
-     
-## Current Status
-
-| CIPHER | JAVASCRIPT | C | C++ | PYTHON |  Readme.md |
-| --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
-| Caesar Cipher |  :heavy_check_mark:   |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: |
-| Transposition Cipher |  &nbsp;  | &nbsp; | &nbsp; | :heavy_check_mark:  |&nbsp; |
-| Autokey Cipher | &nbsp;  |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark: |
-| Hill Cipher | &nbsp;  | &nbsp; | &nbsp; |  &nbsp;| :heavy_check_mark:|
-| Playfair Cipher | &nbsp;   | &nbsp; | &nbsp; | :heavy_check_mark:  |&nbsp; |
-| ROT13 Cipher |  :heavy_check_mark:   | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:  |
-| Railfence Cipher |&nbsp; | &nbsp; |  :heavy_check_mark:     |   :heavy_check_mark:    |  :heavy_check_mark:    |
-| Substitution Cipher | &nbsp;   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
-| Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
-| RSA Cipher | &nbsp;  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | &nbsp;|
-| XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
-| Affine Cipher |  &nbsp;   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
-
-
-
 
 
 
