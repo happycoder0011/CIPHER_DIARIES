@@ -100,7 +100,7 @@ git commit -m "commit message"
 git push origin master
 ```
 
-**Note:** You would be working on your local project. Always make sure to pull the repobefore pushing your code to see the changes made by other contributors.
+**Note:** You would be working on your local project. Always make sure to pull the repo before pushing your code to see the changes made by other contributors.
 ```sh
 git pull
 ```
