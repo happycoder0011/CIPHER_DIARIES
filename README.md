@@ -23,14 +23,14 @@ A collection of Cipher implementations in different langauges.
 | CIPHER | JAVASCRIPT | C | C++ | PYTHON |  Readme.md |
 | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
 | Caesar Cipher |  :heavy_check_mark:   |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: |
-| Transposition Cipher |  &nbsp;  | &nbsp; | &nbsp; | :heavy_check_mark:  | :heavy_check_mark: |
+| Transposition Cipher |  &nbsp;  | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  | :heavy_check_mark: |
 | Autokey Cipher | &nbsp;  |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark: |
 | Hill Cipher | &nbsp;  | &nbsp; | &nbsp; |  :heavy_check_mark:| :heavy_check_mark:|
 | Playfair Cipher | &nbsp;   | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  |&nbsp; |
 | ROT13 Cipher |  :heavy_check_mark:   | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:  |
 | Railfence Cipher |&nbsp; | &nbsp; |  :heavy_check_mark:     |   :heavy_check_mark:    |  :heavy_check_mark:    |
 | Substitution Cipher | &nbsp;   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
-| Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
+| Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | :heavy_check_mark: |  :heavy_check_mark:  |  :heavy_check_mark: |
 | RSA Cipher | &nbsp;  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | &nbsp;|
 | XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
 | Affine Cipher |  &nbsp;   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  &nbsp; |
