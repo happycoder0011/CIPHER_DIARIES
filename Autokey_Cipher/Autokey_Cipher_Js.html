@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Autokey Cipher</title>
+    </head>
+    <body>
+        <h1>Autokey Cipher Encoder/Decoder</h1>
+        Enter plain/cipher text: <input type="text" id = "text"><br><br>   
+        Enter secret key: <input type="text" id = "key"><br><br>   
+        <input type="button" onclick="encrypt()" value="Enrypt"/>
+        <input type="button" onclick="decrypt()" value="Decrypt"/>
+        <br><br>
+        <input type="text" id="result" value="">
+    </body>
+    <script>
+        const toAlpha = (num) => {
+            if(num < 1 || num > 26 || typeof num !== 'number'){
+                return -1;
+            }
+            const leveller = 65;
+            return String.fromCharCode(num + leveller);
+        };
+
+        function encrypt(){
+            var text = document.getElementById("text").value.toUpperCase()
+            var key = document.getElementById("key").value.toUpperCase()
+            var result="";
+            if(text.length != key.length){
+                result = "Error"
+            }else{
+                for(let i=0;i<text.length;i++){
+                result += toAlpha((text.charCodeAt(i)+ key.charCodeAt(i)) % 26)
+            }
+            }
+            
+            document.getElementById("result").value = result
+        }
+
+        function decrypt(){
+            var text = document.getElementById("text").value.toUpperCase()
+            var key = document.getElementById("key").value.toUpperCase()
+            var result="";
+            if(text.length != key.length){
+                result = "Error"
+            }else{
+                for(let i=0;i<text.length;i++){
+                    result += toAlpha((text.charCodeAt(i)- key.charCodeAt(i)) % 26)
+                }
+            }
+            document.getElementById("result").value = result
+        }
+    </script>
+</html>
