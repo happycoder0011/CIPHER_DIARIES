@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Substitution Cipher</title>
+</head>
+
+<body>
+    <h1>
+        Subsitution Cipher Encoder
+    </h1>
+    <p>
+        Enter Keyword
+    </p>
+    <input id="keyword-encode" type="text">
+    <p>
+        Enter Text to Encode
+    </p>
+    <textarea id="plain-encode-text" type="text" rows='5' cols='100'></textarea>
+    <p>Encoded Text</p>
+    <textarea id="encoded-text" type="text" rows='5' cols='100'></textarea>
+    <p>
+    <button id="Encode">Encode</button></p>
+
+
+    <h1>Substitution Cipher Decoder</h1>
+    <p>
+        Enter Keyword
+    </p>
+    <input id="keyword-decode" type="text">
+    <p>
+        Enter Text to Decode
+    </p>
+    <textarea id="plain-decode-text" type="text" rows='5' cols='100'></textarea>
+    <p>Decoded Text</p>
+    <textarea id="decoded-text" type="text" rows='5' cols='100'></textarea>
+    <p>
+    <button id="decode">Decode</button></p>
+    <script>
+        // Implementation of substitution ciper in Javascript
+        const text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        // function to remove duplicates in a string 
+        function removeDuplicateCharacters(string) {
+                return string
+                    .split('')
+                    .filter(function (item, pos, self) {
+                        return self.indexOf(item) == pos;
+                    })
+                    .join('');
+            }
+        //Encoder Implementaion
+        document.getElementById("Encode").onclick = function () {
+
+            const keyword = document.getElementById("keyword-encode").value;
+            const plaintext = document.getElementById("plain-encode-text").value;
+            keyword = keyword.toUpperCase();
+            plaintext = plaintext.toUpperCase();
+
+            var ciphertext = "";
+            var key = removeDuplicateCharacters(keyword + text);
+            for (var i = 0; i < plaintext.length; i++) {
+
+                if (plaintext[i] == " ") {
+                    ciphertext += " ";
+                    continue;
+                }
+                ciphertext += key[plaintext.charCodeAt(i) - 65];
+            }
+            document.getElementById('encoded-text').value = ciphertext
+           
+        }
+        //Decoder Implementation
+        document.getElementById('decode').onclick = function(){
+
+            var textToBeDecoded = document.getElementById("plain-decode-text").value;
+            var decodeKeyword = document.getElementById('keyword-decode').value;
+            textToBeDecoded = textToBeDecoded.toUpperCase();
+            decodeKeyword = decodeKeyword.toUpperCase();
+            var decryptText = "";
+            var decodekey = removeDuplicateCharacters(decodeKeyword+text);
+
+            for (let i = 0; i < textToBeDecoded.length; i++) {
+                if (textToBeDecoded[i] == " ") {
+                    decryptText += " ";
+                    continue;
+                }
+                decryptText += text[decodekey.indexOf(textToBeDecoded[i])];
+
+            }
+            document.getElementById('decoded-text').value = decryptText;
+        }
+    </script>
+</body>
+
+</html>
