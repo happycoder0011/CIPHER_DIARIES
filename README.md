@@ -26,7 +26,7 @@ A collection of Cipher implementations in different langauges.
 | Transposition Cipher |  &nbsp;  | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  | :heavy_check_mark: |
 | Autokey Cipher | &nbsp;  |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark: |
 | Hill Cipher | &nbsp;  | &nbsp; | &nbsp; |  :heavy_check_mark:| :heavy_check_mark:|
-| Playfair Cipher | &nbsp;   | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  |&nbsp; |
+| Playfair Cipher | :heavy_check_mark:   | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  |&nbsp; |
 | ROT13 Cipher |  :heavy_check_mark:   | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:  |
 | Railfence Cipher |&nbsp; | &nbsp; |  :heavy_check_mark:     |   :heavy_check_mark:    |  :heavy_check_mark:    |
 | Substitution Cipher | &nbsp;   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
