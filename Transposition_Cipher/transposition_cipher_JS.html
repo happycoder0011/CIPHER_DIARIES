@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transposition Cipher</title>
+</head>
+<body>
+    <h1>Transposition Cipher</h1>
+    <h2>Encoder</h2>
+    <div>Enter key</div>
+    <input name="encode-key" id="encode-key">
+    <div>Enter Text</div>
+    <textarea name="encode-text" id ="encode-text" rows=5 cols=50></textarea>
+    <div>Encrypted Text</div>
+    <textarea name="encrypted-text-output" id="encrypted-text-output" rows = 5 cols=50></textarea>
+    <br>
+    <button id="encode">Encode</button>
+    <h2>Decoder</h2>
+    <div>Enter key</div>
+    <input name="decode-key" id="decode-key">
+    <div>Enter Text</div>
+    <textarea name="decode-text" id ="decode-text" rows=5 cols=50></textarea>
+    <div>Decrypted Text</div>
+    <textarea name="decrypted-text-output" id="decrypted-text-output" rows = 5 cols=50></textarea>
+    <br>
+    <button id="decode">Decode</button>
+    <script>
+        // Encoder implementation
+        document.getElementById('encode').onclick = function(){
+
+            var key = parseInt(document.getElementById('encode-key').value);
+            var text = document.getElementById('encode-text').value;
+            var s = "";
+            for (let i = 0; i < text.length; i++) {
+                if(text[i]===" "){
+                    continue;
+                }
+                s+=text[i];
+            }
+            text = s;
+
+            var rows = Math.round(text.length / key);
+            if(text.length>rows*key){
+                rows++;
+            }
+            var numX = rows*key - text.length;
+
+            var cipher='';
+            for(var i=0;i<numX;i++){
+                text+='x';
+            }
+
+            for (let index = 0; index < key; index++) {
+                var position = index;
+                for (let i = 0; i < text.length; i++) {
+                    
+                    cipher+=text[position];
+                    position+=key;
+                    if(position>=text.length){
+                        break;
+                    }
+
+                }
+                cipher+=" ";
+            }
+            document.getElementById('encrypted-text-output').value = cipher;
+        }
+
+        //Decoder implementation
+        document.getElementById('decode').onclick=function(){
+            var key = parseInt(document.getElementById('decode-key').value);
+            var text = document.getElementById('decode-text').value;
+            var s = "";
+            for (let i = 0; i < text.length; i++) {
+                if(text[i]===" "){
+                    continue;
+                }
+                s+=text[i];
+            }
+            text = s;
+            var rows = text.length / key;
+            var decode= " ";
+            for (let i = 0; i < rows; i++) {
+                var position = i;
+                for (let j = 0; j < text.length; j++) {
+                    decode+=text[position];
+                    position+=rows;
+                    if(position>=text.length){
+                        break;
+                    }
+                }               
+            }
+            document.getElementById('decrypted-text-output').value = decode;
+        }
+    </script>
+</body>
+</html>
