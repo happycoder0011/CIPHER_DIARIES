@@ -23,17 +23,17 @@ A collection of Cipher implementations in different langauges.
 | CIPHER | JAVASCRIPT | C | C++ | PYTHON |  Readme.md |
 | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
 | Caesar Cipher |  :heavy_check_mark:   |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: |
-| Transposition Cipher |  &nbsp;  | &nbsp; | &nbsp; | :heavy_check_mark:  | :heavy_check_mark: |
-| Autokey Cipher | &nbsp;  |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark: |
-| Hill Cipher | &nbsp;  | &nbsp; | &nbsp; |  &nbsp;| :heavy_check_mark:|
-| Playfair Cipher | &nbsp;   | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  |&nbsp; |
+| Transposition Cipher | :heavy_check_mark:  | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  | :heavy_check_mark: |
+| Autokey Cipher | :heavy_check_mark:  |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark: |
+| Hill Cipher | &nbsp;  | &nbsp; | &nbsp; |  :heavy_check_mark:| :heavy_check_mark:|
+| Playfair Cipher | :heavy_check_mark:   | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  |&nbsp; |
 | ROT13 Cipher |  :heavy_check_mark:   | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:  |
 | Railfence Cipher |&nbsp; | &nbsp; |  :heavy_check_mark:     |   :heavy_check_mark:    |  :heavy_check_mark:    |
-| Substitution Cipher | &nbsp;   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
-| Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  :heavy_check_mark: |
+| Substitution Cipher | :heavy_check_mark:   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
+| Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | :heavy_check_mark: |  :heavy_check_mark:  |  :heavy_check_mark: |
 | RSA Cipher | &nbsp;  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | &nbsp;|
 | XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
-| Affine Cipher |  &nbsp;   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  &nbsp; |
+| Affine Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  &nbsp; |
 
 
 ## Why this repository?
@@ -100,7 +100,7 @@ git commit -m "commit message"
 git push origin master
 ```
 
-**Note:** You would be working on your local project. Always make sure to pull the repobefore pushing your code to see the changes made by other contributors.
+**Note:** You would be working on your local project. Always make sure to pull the repo before pushing your code to see the changes made by other contributors.
 ```sh
 git pull
 ```
