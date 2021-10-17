@@ -32,7 +32,7 @@ A collection of Cipher implementations in different langauges.
 | Substitution Cipher | :heavy_check_mark:   | &nbsp; | &nbsp; |:heavy_check_mark:   |:heavy_check_mark:  |
 | Vigenere Cipher |  :heavy_check_mark:   | &nbsp; | :heavy_check_mark: |  :heavy_check_mark:  |  :heavy_check_mark: |
 | RSA Cipher | &nbsp;  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | :heavy_check_mark:|
-| XOR Cipher | :heavy_check_mark:  | &nbsp; |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
+| XOR Cipher | :heavy_check_mark:  | :heavy_check_mark: |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
 | Affine Cipher |  :heavy_check_mark:   | &nbsp; | &nbsp; |  :heavy_check_mark:  |  &nbsp; |
 
 
