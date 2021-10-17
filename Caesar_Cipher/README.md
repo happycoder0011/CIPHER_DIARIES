@@ -18,9 +18,9 @@ consisting of 26 characters can be described as, *E<sub>n</sub>(x) = (x + n)%26*
   *Caeser Encryption*
 
 </p>
-Similarly, decryption can be described as,
-*D<sub>n</sub>(x) = (x − n)%26*.
-<p >
+Similarly, decryption can be described as *D<sub>n</sub>(x) = (x − n)%26*
+
+<p>
 <img src="https://higherlogicdownload.s3.amazonaws.com/IMWUC/UploadedImages/92757287-d116-4157-b004-c2a0aba1b048/Caesar_cipher_Decryption_Algorithm.png">
 
 *Ceaser Decryption*
