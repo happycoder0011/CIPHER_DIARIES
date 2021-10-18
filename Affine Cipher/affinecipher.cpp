@@ -50,6 +50,7 @@ int main(void)
     string msg;
 
     cout<<"Enter the text which you want to encrypt/ decrypt:"<<endl;
+    
     getline(cin, msg);
 
     transform(msg.begin(), msg.end(), msg.begin(), ::toupper); 
