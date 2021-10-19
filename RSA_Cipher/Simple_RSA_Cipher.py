@@ -4,7 +4,7 @@ def encrypt_text(text, pq, public_key):
         if(e.isupper()):
             output_array.append(int((((ord(e)-64) ** public_key)%pq)))
         else:
-            output_array.append(int((((ord(e)-96) ** public_key)%pq)))      
+            output_array.append(int((((ord(e)-96) ** public_key)%pq))) 
     return output_array
 
 def decrypt_array(encrypt_array, pq, private_key):
