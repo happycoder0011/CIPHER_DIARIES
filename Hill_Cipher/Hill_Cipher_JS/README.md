@@ -1,4 +1,4 @@
-# Hill Cipher in C++
+# Hill Cipher in JavaScript
 
 ## Consraint
 
