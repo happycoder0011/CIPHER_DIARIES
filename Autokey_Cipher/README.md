@@ -7,15 +7,15 @@ same message into the key. In this cipher, the key is a stream of subkeys which 
 ### Formula 
 ---------------------
 
-Encryption: C_i = (P_i + K_i) mod 26
+Encryption: $C_i = (P_i + K_i)$ mod 26
 
-Decryption: P_i = (C_i - K_i) mod 26
+Decryption: $P_i = (C_i - K_i)$ mod 26
 
-C_i =	Cipher text stream
+$C_i$ =	Cipher text stream
 
-K_i = 	Key stream
+$K_i$ = 	Key stream
 
-P_i = 	Plain text stream
+$P_i$ = 	Plain text stream
 
 ***NOTE***: Remember that the tabula recta starts at 0!!!
 
