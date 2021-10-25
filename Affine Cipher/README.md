@@ -4,33 +4,33 @@ The Affine Cipher is a type of substitution cipher, which means that, during enc
 
 ## Encryption
 
-Let's assume we are using an alphabet with $m$ letters (for the english alphabet, we have $m=26$). Each letter from the alphabet is assigned a number from $0$ to $m-1$, in the same order as they are present in the alphabet. A single letter that is assigned the number $x$ goes through the following mathematical function, where $E(x)$ is the number that corresponds to the new character obtained after encryption:
+Let's assume we are using an alphabet with <i>m</i> letters (for the english alphabet, we have <i>m=26</i>). Each letter from the alphabet is assigned a number from 0 to <i>m-1</i>, in the same order as they are present in the alphabet. A single letter that is assigned the number <i>x</i> goes through the following mathematical function, where <i>E(x)</i> is the number that corresponds to the new character obtained after encryption:
 
-$$ E(x) = (ax + b) mod (m) $$
+<i>E(x) = (ax + b) mod (m)</i>
 
-$a$ and $b$ are the keys of the cipher. And $a$ and $m$ must be coprime.
+<i>a</i> and <i>b</i> are the keys of the cipher. And $a$ and $m$ must be coprime.
 
-this new value, $E(x)$, is then converted to the corresponding character. This process is repeated for each character in the text until the entire text is encrypted.
+this new value, <i>E(x)</i>, is then converted to the corresponding character. This process is repeated for each character in the text until the entire text is encrypted.
 
 ## Decryption
 
-We will assume $x$ as the number assigned for a character in the encrypted text. This number will go through the following function:
+We will assume <i>x</i> as the number assigned for a character in the encrypted text. This number will go through the following function:
 
-$$ D(x) = a^{-1}(x-b)mod(m) $$
+<i> D(x) = a<sup>-1</sup>(x-b)mod(m) </i>
 
-Where $a^{-1}$ is the multiplicative inverse of $(a)mod(m)$, satisfying the following formula:
+Where <i>a<sup>-1</sup></i> is the multiplicative inverse of <i>(a)mod(m)</i>, satisfying the following formula:
 
-$$ (aa^{-1})mod(m) = 1 $$
+<i> (aa<sup>-1</sup>)mod(m) = 1 </i>
 
-The number $D(x)$ is then converted to the corresponding character, which is the original character, before the text being encrypted.
+The number <i>D(x)</i> is then converted to the corresponding character, which is the original character, before the text being encrypted.
 
 ## Example
 
-Let's encrypt and decrypt the text `cipher`, which uses the english alphabet ($m=26$). We will use $a=5$ and $b=8$.
+Let's encrypt and decrypt the text `cipher`, which uses the english alphabet (<i>m=26</i>). We will use <i>a=5</i> and <i>b=8</i>.
 
 ### Encryption
 
-| Original Text      | x | (5x + 8)mod(26) | Encrypted Text |
+| Original Text      | x | <i>(5x + 8)mod(26)</i> | Encrypted Text |
 | :---: | :---: | :---: | :---: |
 | c | 2 | 18 | s |
 | i | 8 | 22 | w |
@@ -43,9 +43,9 @@ So, by encrypting the text `cipher` we get the text `swfrcp`.
 
 ### Decryption
 
-From the formula shown before, we have $ a^{-1} = 21 $.
+From the formula shown before, we have <i> a<sup>-1</sup> = 21 </i>.
 
-| Encrypted Text | x | 21(x - 8)mod(26) | Original text |
+| Encrypted Text | x | <i>21(x - 8)mod(26)</i> | Original text |
 | :---: | :---: | :---: | :---: |
 | s | 18 | 2 | c |
 | w | 22 | 8 | i |
