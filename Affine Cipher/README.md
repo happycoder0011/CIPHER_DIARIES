@@ -22,7 +22,7 @@ E ( x ) = ( a x + b ) % m
 In deciphering the ciphertext, we must perform the opposite (or inverse) functions on the ciphertext to retrieve the plaintext. Once again, the first step is to convert each of the ciphertext letters into their integer values. The **decryption function** is:
 
 ```
-D ( x ) = a^-1 ( x - b ) mod m
+D ( x ) = a^-1 ( x - b ) % m
 ```
 
 - **a^-1** : modular multiplicative inverse of a modulo m. i.e., it satisfies the equation
