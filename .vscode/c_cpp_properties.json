@@ -5,7 +5,7 @@
             "includePath": [
                 "${default}"
             ],
-            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-gcc-x64"
