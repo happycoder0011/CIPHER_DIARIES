@@ -33,7 +33,7 @@ A collection of Cipher implementations in different langauges.
 | Vigenere Cipher |  :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:  |  :heavy_check_mark: |
 | RSA Cipher | :heavy_check_mark:  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | :heavy_check_mark:|
 | XOR Cipher | :heavy_check_mark:  | :heavy_check_mark: |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
-| Affine Cipher |  :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:  |  &nbsp; |
+| Affine Cipher |  :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:  |  :heavy_check_mark: |
 
 
 ## Why this repository?
