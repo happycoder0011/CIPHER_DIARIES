@@ -23,13 +23,13 @@ A collection of Cipher implementations in different langauges.
 | CIPHER | JAVASCRIPT | C | C++ | PYTHON |  Readme.md |
 | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
 | Caesar Cipher |  :heavy_check_mark:   |  :heavy_check_mark: |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: |
-| Transposition Cipher | :heavy_check_mark:  | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  | :heavy_check_mark: |
+| Transposition Cipher | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: |
 | Autokey Cipher | :heavy_check_mark:  |  :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark:  | :heavy_check_mark: |
 | Hill Cipher | :heavy_check_mark:  | &nbsp; |:heavy_check_mark: |  :heavy_check_mark:| :heavy_check_mark:|
 | Playfair Cipher | :heavy_check_mark:   | :heavy_check_mark: | &nbsp; | :heavy_check_mark:  |:heavy_check_mark: |
 | ROT13 Cipher |  :heavy_check_mark:   | :heavy_check_mark:  | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:  |
 | Railfence Cipher |:heavy_check_mark: | &nbsp; |  :heavy_check_mark:     |   :heavy_check_mark:    |  :heavy_check_mark:    |
-| Substitution Cipher | :heavy_check_mark:   | &nbsp; | :heavy_check_mark: |:heavy_check_mark:   |:heavy_check_mark:  |
+| Substitution Cipher | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark:   |:heavy_check_mark:  |
 | Vigenere Cipher |  :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:  |  :heavy_check_mark: |
 | RSA Cipher | :heavy_check_mark:  | &nbsp; |  :heavy_check_mark: |  :heavy_check_mark:  | :heavy_check_mark:|
 | XOR Cipher | :heavy_check_mark:  | :heavy_check_mark: |  &nbsp;|  :heavy_check_mark:  | :heavy_check_mark: |
